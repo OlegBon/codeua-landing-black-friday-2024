@@ -1,0 +1,473 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(90deg, #001024, #002555, #001024);
+  margin: 0;
+  font-family: "Montserrat", serif;
+  color: #fff;
+}
+
+header {
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 90px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a:hover {
+  color: #ffe251;
+  /* font-weight: 600; */
+}
+
+h1 {
+  font-size: 116px;
+  text-transform: uppercase;
+  width: 430px;
+  font-weight: 900;
+  line-height: 90%;
+  margin: 0;
+  position: relative;
+}
+
+h1 span {
+  font-size: 106px;
+}
+
+h1::after {
+  content: "";
+  background-image: url(./images/discount.png);
+  background-position: center center;
+  background-size: 227px 194px;
+  position: absolute;
+  top: 40%;
+  left: 88%;
+  width: 227px;
+  height: 194px;
+}
+
+.black-friday-text {
+  background: #e50103;
+  width: 426px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 27px 13px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 24px;
+  margin-bottom: 37px;
+}
+
+.black-friday-section {
+  background-image: url(./images/box-background.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.proposal-courses {
+  width: 580px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.proposal-courses a {
+  background-repeat: no-repeat;
+  background-size: 27px;
+  background-position: 10px center;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 0 6px 45px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 140%;
+  margin-bottom: 14px;
+  width: 175px;
+  user-select: none;
+}
+
+.proposal-courses a:last-child {
+  margin-bottom: 0;
+}
+
+.proposal-courses a:hover {
+  background-color: #8394b0;
+}
+
+.frontend {
+  background-image: url(./images/icon-frontend.svg);
+}
+
+.python {
+  background-image: url(./images/icon-python.svg);
+}
+
+.qa-manual {
+  background-image: url(./images/icon-qa-manual.svg);
+}
+
+.full-stack {
+  background-image: url(./images/icon-full-stack.svg);
+}
+
+.c-sharp-net {
+  background-image: url(./images/icon-c-sharp-net.svg);
+}
+
+.java {
+  background-image: url(./images/icon-java.svg);
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+/* section {
+  height: 700px;
+} */
+
+h2 {
+  font-size: 70px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 90%;
+  margin: 170px 0 70px;
+}
+
+.cards-advantages {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-advantage {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 270px;
+  padding: 150px 12px 50px;
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center 30px;
+  background-size: 0, 100px 100px;
+  border-radius: 20px;
+}
+
+.card-advantage:hover {
+  background-color: #f03131;
+}
+
+.demand {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-cil_find-in-page.svg);
+}
+
+.level {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-dashicons_money-alt.svg);
+}
+
+.international {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-subway_world.svg);
+}
+
+.remote {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-ant-design_home-outlined.svg);
+}
+
+.demand:hover {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-cil_find-in-page.svg);
+  background-size: 103px 100px, 100px 100px;
+}
+
+.level:hover {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-dashicons_money-alt.svg);
+  background-size: 103px 100px, 100px 100px;
+}
+
+.international:hover {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-subway_world.svg);
+  background-size: 103px 100px, 100px 100px;
+}
+
+.remote:hover {
+  background-image: url(./images/it-hover.svg),
+    url(./images/it-ant-design_home-outlined.svg);
+  background-size: 103px 100px, 100px 100px;
+}
+
+.card-advantage h4 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0 26px;
+}
+
+.card-advantage p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 140%;
+}
+
+.speciality-items {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.course-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 370px;
+  padding: 26px 30px 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.course-item:nth-child(1),
+.course-item:nth-child(2),
+.course-item:nth-child(3) {
+  margin-top: 0;
+}
+
+.course-item:hover {
+  background-color: #385179;
+}
+
+.course-item h3 {
+  margin: 0;
+  font-size: 42px;
+  background-repeat: no-repeat;
+  background-position: right center;
+  margin-bottom: 30px;
+  padding: 6px 0;
+}
+
+.course-frontend {
+  background-image: url(./images/logo-frontend.svg);
+}
+
+.course-c-sharp-net {
+  background-image: url(./images/logo-c-sharp-net.svg);
+}
+.course-java {
+  background-image: url(./images/logo-java.svg);
+}
+
+.course-python {
+  background-image: url(./images/logo-python.svg);
+}
+
+.course-full-stack {
+  background-image: url(./images/logo-full-stack.svg);
+}
+
+.course-qa-manual {
+  background-image: url(./images/logo-qa-manual.svg);
+}
+
+.course-item p {
+  margin: 21px 0;
+  height: 80px;
+}
+
+.course-item button {
+  border: 2px solid #e50103;
+  border-radius: 100px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: transparent;
+  width: 100%;
+  padding: 15px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.course-item button:hover {
+  background-color: #e50103;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 50px 0;
+}
+
+.footer-info h4 {
+  margin: 0 0 30px;
+}
+
+.common-information {
+  width: 310px;
+}
+
+.common-information img {
+  margin-bottom: 30px;
+}
+
+.common-information p {
+  margin: 0;
+}
+
+.common-information small {
+  display: block;
+  font-size: 12px;
+  margin-top: 76px;
+}
+
+.contacts {
+  width: 286px;
+}
+
+.contacts-list a {
+  color: #fff;
+}
+
+.contacts-list .icon {
+  display: block;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 0 5px 50px;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.contacts-list .icon:hover {
+  color: #ffe000;
+}
+
+.contacts-list .tel {
+  background-image: url(./images/footer-tel.svg);
+}
+
+.contacts-list .site {
+  background-image: url(./images/footer-site.svg);
+}
+
+.contacts-list .tg {
+  background-image: url(./images/footer-tg.svg);
+}
+
+.contacts-list .email {
+  background-image: url(./images/footer-email.svg);
+}
+
+.contacts-list .tel:hover {
+  background-image: url(./images/footer-tel-hover.svg);
+}
+
+.contacts-list .site:hover {
+  background-image: url(./images/footer-site-hover.svg);
+}
+
+.contacts-list .tg:hover {
+  background-image: url(./images/footer-tg-hover.svg);
+}
+
+.contacts-list .email:hover {
+  background-image: url(./images/footer-email-hover.svg);
+}
+
+.socials {
+  width: 256px;
+}
+
+.socials-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.socials-list a {
+  width: 32px;
+  height: 32px;
+}
+
+.socials-list .instagram {
+  background-image: url(./images/footer-icons_instagram.svg);
+}
+
+.socials-list .facebook {
+  background-image: url(./images/footer-icons_facebook.svg);
+}
+
+.socials-list .youtube {
+  background-image: url(./images/footer-icons_youtube.svg);
+}
+
+.socials-list .linkedin {
+  background-image: url(./images/footer-icons_linkedin.svg);
+}
+
+.socials-list .telegram {
+  background-image: url(./images/footer-icons_telegram.svg);
+}
+
+.socials-list .instagram:hover {
+  background-image: url(./images/footer-icons_instagram-hover.svg);
+}
+
+.socials-list .facebook:hover {
+  background-image: url(./images/footer-icons_facebook-hover.svg);
+}
+
+.socials-list .youtube:hover {
+  background-image: url(./images/footer-icons_youtube-hover.svg);
+}
+
+.socials-list .linkedin:hover {
+  background-image: url(./images/footer-icons_linkedin-hover.svg);
+}
+
+.socials-list .telegram:hover {
+  background-image: url(./images/footer-icons_telegram-hover.svg);
+}
+
+.arrow-to-top-page {
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin-left: auto;
+  margin-top: 74px;
+  background-image: url(./images/arrow-to-top-page.svg);
+}
+
+.arrow-to-top-page:hover {
+  background-image: url(./images/arrow-to-top-page-hover.svg);
+}
