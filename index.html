@@ -22,7 +22,7 @@
           <a href="#advantages-it">Переваги роботи в IT</a>
           <a href="#speciality">IT спеціальності</a>
           <a href="#callback">Отримати консультацію</a>
-          <a href="#">Контакти</a>
+          <a href="#contact">Контакти</a>
         </nav>
       </div>
       <!-- /.header-top -->
@@ -158,8 +158,29 @@
       </div>
     </section>
     <section>
-      <div class="container">
-        <h2 id="callback">Отримай безкоштовну консультацію</h2>
+      <div class="callback-section">
+        <div class="container">
+          <h2 id="callback">Отримай <span>безкоштовну</span> консультацію</h2>
+          <div class="callback-form-content">
+            <form>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Імʼя"
+                required
+              />
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="Телефон"
+                required
+              />
+              <button type="submit">Отримати консультацію</button>
+            </form>
+          </div>
+        </div>
       </div>
     </section>
     <footer>
@@ -173,7 +194,7 @@
           </small>
         </div>
         <!-- ./common-information -->
-        <div class="contacts">
+        <div id="contact" class="contacts">
           <h4>Контакти</h4>
           <div class="contacts-list">
             <a class="icon tel" href="#">0 800 337 146 (безкоштовно)</a>
@@ -197,5 +218,29 @@
         <!-- ./socials -->
       </div>
     </footer>
+    <!-- Модальне вікно -->
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <form>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Імʼя"
+            required
+          />
+          <input
+            type="tel"
+            id="phone"
+            name="phone"
+            placeholder="Телефон"
+            required
+          />
+          <button type="submit">Отримати консультацію</button>
+        </form>
+      </div>
+    </div>
+    <!-- Підключаємо скрипт для модального вікна -->
+    <script src="script.js"></script>
   </body>
 </html>

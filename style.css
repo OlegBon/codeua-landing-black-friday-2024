@@ -29,11 +29,12 @@ header {
   margin-bottom: 90px;
 }
 
-nav a {
+/* nav a {
   color: #fff;
   text-decoration: none;
   font-size: 16px;
   margin-left: 40px;
+  transition: color 0.3s, font-weight 0.3s;
 }
 
 nav a:first-child {
@@ -42,7 +43,42 @@ nav a:first-child {
 
 nav a:hover {
   color: #ffe251;
-  /* font-weight: 600; */
+  font-weight: 600;
+} */
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 40px;
+  position: relative;
+}
+
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  display: block;
+  margin-top: 5px;
+  right: 0;
+  background: #ffe251;
+  transition: width 0.3s ease;
+  -webkit-transition: width 0.5s ease;
+}
+
+nav a:hover::after {
+  width: 100%;
+  left: 0;
+  background: #ffe251;
+}
+
+nav a:hover {
+  color: #ffe251;
 }
 
 h1 {
@@ -318,6 +354,66 @@ h2 {
   background-color: #e50103;
 }
 
+.callback-section {
+  padding-bottom: 370px;
+  background-image: url(./images/callback-background.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.callback-section h2 {
+  text-align: left;
+}
+
+.callback-section h2 span {
+  color: #ffd000;
+}
+
+.callback-form-content {
+  width: 414px;
+  height: 262px;
+}
+
+.callback-form-content input,
+.callback-form-content button {
+  width: 414px;
+  height: 78px;
+  border-radius: 100px;
+  margin-top: 14px;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+}
+
+.callback-form-content input:first-child {
+  margin-top: 0;
+}
+
+.callback-form-content input {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  padding: 22px 28px;
+}
+
+.callback-form-content input::placeholder {
+  color: #fff;
+}
+
+.callback-form-content input:focus {
+  outline: none;
+}
+
+.callback-form-content button {
+  border: 2px solid #e50103;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.callback-form-content button:hover,
+.callback-form-content button:active {
+  background-color: #e50103;
+}
+
 footer {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -470,4 +566,64 @@ footer {
 
 .arrow-to-top-page:hover {
   background-image: url(./images/arrow-to-top-page-hover.svg);
+}
+
+/* Модальне вікно */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  background-color: #01132b;
+  margin: 15% auto;
+  padding: 80px;
+  width: 564px;
+}
+
+.modal-content input,
+.modal-content button {
+  width: 414px;
+  height: 64px;
+  border-radius: 8px;
+  margin-top: 22px;
+  border: none;
+  font-size: 24px;
+  color: #fff;
+}
+
+.modal-content input:first-child {
+  margin-top: 0;
+}
+
+.modal-content input {
+  background-color: rgba(255, 255, 255, 0.2);
+  font-weight: 500;
+  padding: 10px 20px;
+}
+
+.modal-content input::placeholder {
+  color: #fff;
+}
+
+.modal-content input:focus {
+  outline: none;
+}
+
+.modal-content button {
+  background-color: #e50103;
+  font-weight: 600;
+}
+
+.modal-content button:hover,
+.modal-content button:active {
+  border: 2px solid #e50103;
+  background-color: transparent;
 }
