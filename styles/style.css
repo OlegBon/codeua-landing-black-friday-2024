@@ -97,7 +97,7 @@ h1 span {
 
 h1::after {
   content: "";
-  background-image: url(./images/discount.png);
+  background-image: url(../images/discount.png);
   background-position: center center;
   background-size: 227px 194px;
   position: absolute;
@@ -120,7 +120,7 @@ h1::after {
 }
 
 .black-friday-section {
-  background-image: url(./images/box-background.png);
+  background-image: url(../images/box-background.png);
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -159,27 +159,27 @@ h1::after {
 }
 
 .frontend {
-  background-image: url(./images/icon-frontend.svg);
+  background-image: url(../images/icon-frontend.svg);
 }
 
 .python {
-  background-image: url(./images/icon-python.svg);
+  background-image: url(../images/icon-python.svg);
 }
 
 .qa-manual {
-  background-image: url(./images/icon-qa-manual.svg);
+  background-image: url(../images/icon-qa-manual.svg);
 }
 
 .full-stack {
-  background-image: url(./images/icon-full-stack.svg);
+  background-image: url(../images/icon-full-stack.svg);
 }
 
 .c-sharp-net {
-  background-image: url(./images/icon-c-sharp-net.svg);
+  background-image: url(../images/icon-c-sharp-net.svg);
 }
 
 .java {
-  background-image: url(./images/icon-java.svg);
+  background-image: url(../images/icon-java.svg);
 }
 
 .hidden {
@@ -220,46 +220,46 @@ h2 {
 }
 
 .demand {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-cil_find-in-page.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-cil_find-in-page.svg);
 }
 
 .level {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-dashicons_money-alt.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-dashicons_money-alt.svg);
 }
 
 .international {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-subway_world.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-subway_world.svg);
 }
 
 .remote {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-ant-design_home-outlined.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-ant-design_home-outlined.svg);
 }
 
 .demand:hover {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-cil_find-in-page.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-cil_find-in-page.svg);
   background-size: 103px 100px, 100px 100px;
 }
 
 .level:hover {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-dashicons_money-alt.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-dashicons_money-alt.svg);
   background-size: 103px 100px, 100px 100px;
 }
 
 .international:hover {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-subway_world.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-subway_world.svg);
   background-size: 103px 100px, 100px 100px;
 }
 
 .remote:hover {
-  background-image: url(./images/it-hover.svg),
-    url(./images/it-ant-design_home-outlined.svg);
+  background-image: url(../images/it-hover.svg),
+    url(../images/it-ant-design_home-outlined.svg);
   background-size: 103px 100px, 100px 100px;
 }
 
@@ -310,26 +310,26 @@ h2 {
 }
 
 .course-frontend {
-  background-image: url(./images/logo-frontend.svg);
+  background-image: url(../images/logo-frontend.svg);
 }
 
 .course-c-sharp-net {
-  background-image: url(./images/logo-c-sharp-net.svg);
+  background-image: url(../images/logo-c-sharp-net.svg);
 }
 .course-java {
-  background-image: url(./images/logo-java.svg);
+  background-image: url(../images/logo-java.svg);
 }
 
 .course-python {
-  background-image: url(./images/logo-python.svg);
+  background-image: url(../images/logo-python.svg);
 }
 
 .course-full-stack {
-  background-image: url(./images/logo-full-stack.svg);
+  background-image: url(../images/logo-full-stack.svg);
 }
 
 .course-qa-manual {
-  background-image: url(./images/logo-qa-manual.svg);
+  background-image: url(../images/logo-qa-manual.svg);
 }
 
 .course-item p {
@@ -356,7 +356,7 @@ h2 {
 
 .callback-section {
   padding-bottom: 370px;
-  background-image: url(./images/callback-background.png);
+  background-image: url(../images/callback-background.png);
   background-repeat: no-repeat;
   background-position: center center;
 }
@@ -470,35 +470,35 @@ footer {
 }
 
 .contacts-list .tel {
-  background-image: url(./images/footer-tel.svg);
+  background-image: url(../images/footer-tel.svg);
 }
 
 .contacts-list .site {
-  background-image: url(./images/footer-site.svg);
+  background-image: url(../images/footer-site.svg);
 }
 
 .contacts-list .tg {
-  background-image: url(./images/footer-tg.svg);
+  background-image: url(../images/footer-tg.svg);
 }
 
 .contacts-list .email {
-  background-image: url(./images/footer-email.svg);
+  background-image: url(../images/footer-email.svg);
 }
 
 .contacts-list .tel:hover {
-  background-image: url(./images/footer-tel-hover.svg);
+  background-image: url(../images/footer-tel-hover.svg);
 }
 
 .contacts-list .site:hover {
-  background-image: url(./images/footer-site-hover.svg);
+  background-image: url(../images/footer-site-hover.svg);
 }
 
 .contacts-list .tg:hover {
-  background-image: url(./images/footer-tg-hover.svg);
+  background-image: url(../images/footer-tg-hover.svg);
 }
 
 .contacts-list .email:hover {
-  background-image: url(./images/footer-email-hover.svg);
+  background-image: url(../images/footer-email-hover.svg);
 }
 
 .socials {
@@ -516,43 +516,43 @@ footer {
 }
 
 .socials-list .instagram {
-  background-image: url(./images/footer-icons_instagram.svg);
+  background-image: url(../images/footer-icons_instagram.svg);
 }
 
 .socials-list .facebook {
-  background-image: url(./images/footer-icons_facebook.svg);
+  background-image: url(../images/footer-icons_facebook.svg);
 }
 
 .socials-list .youtube {
-  background-image: url(./images/footer-icons_youtube.svg);
+  background-image: url(../images/footer-icons_youtube.svg);
 }
 
 .socials-list .linkedin {
-  background-image: url(./images/footer-icons_linkedin.svg);
+  background-image: url(../images/footer-icons_linkedin.svg);
 }
 
 .socials-list .telegram {
-  background-image: url(./images/footer-icons_telegram.svg);
+  background-image: url(../images/footer-icons_telegram.svg);
 }
 
 .socials-list .instagram:hover {
-  background-image: url(./images/footer-icons_instagram-hover.svg);
+  background-image: url(../images/footer-icons_instagram-hover.svg);
 }
 
 .socials-list .facebook:hover {
-  background-image: url(./images/footer-icons_facebook-hover.svg);
+  background-image: url(../images/footer-icons_facebook-hover.svg);
 }
 
 .socials-list .youtube:hover {
-  background-image: url(./images/footer-icons_youtube-hover.svg);
+  background-image: url(../images/footer-icons_youtube-hover.svg);
 }
 
 .socials-list .linkedin:hover {
-  background-image: url(./images/footer-icons_linkedin-hover.svg);
+  background-image: url(../images/footer-icons_linkedin-hover.svg);
 }
 
 .socials-list .telegram:hover {
-  background-image: url(./images/footer-icons_telegram-hover.svg);
+  background-image: url(../images/footer-icons_telegram-hover.svg);
 }
 
 .arrow-to-top-page {
@@ -561,11 +561,11 @@ footer {
   height: 64px;
   margin-left: auto;
   margin-top: 74px;
-  background-image: url(./images/arrow-to-top-page.svg);
+  background-image: url(../images/arrow-to-top-page.svg);
 }
 
 .arrow-to-top-page:hover {
-  background-image: url(./images/arrow-to-top-page-hover.svg);
+  background-image: url(../images/arrow-to-top-page-hover.svg);
 }
 
 /* Модальне вікно */
